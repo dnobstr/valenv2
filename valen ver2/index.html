@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TO MY ONE AND ONLY</title>
+        <link rel="stylesheet" type="text/css" href="valen.css">
+    </head>
+    <body>
+        <section class="contents">
+            <img src="valentines present/1.gif">
+        </section>
+        
+        <section class="contents">
+            <img src="valentines present/2.gif">
+        </section>
+
+        <section class="contents">
+            <img src="valentines present/3.gif">
+        </section>
+
+        <section class="contents">
+            <img src="valentines present/4.gif">
+        </section>
+        
+        <section class="contents">
+            <img src="valentines present/5.gif">
+        </section>
+
+        <section class="contents">
+            <img src="valentines present/6.gif">
+        </section>
+
+        <section class="contents">
+            <img src="valentines present/7.gif">
+        </section>
+
+        <section class="contents">
+            <img src="valentines present/8.gif">
+        </section>
+
+        <section class="contents">
+            <img src="valentines present/9.gif">
+        </section>
+        
+        <section class="contents">
+            <img src="valentines present/10.gif" style="z-index: 0;">
+            <a href="yes.html" class="button" id="yesbtn"></a>
+            <button class="button" onmouseenter="move()" onclick="move()" class="button" id="nobtn"></button>
+        
+            <script>
+                const no = document.getElementById("nobtn")
+                const box = document.getElementById("lastPage")
+        
+                function move(){
+                    const x = Math.floor(Math.random() * 90) + 1
+                    const y = Math.floor(Math.random() * 90) + 1
+        
+                    no.style.left = x + "%"
+                    no.style.top = y + "%"
+                }
+            </script>
+        </section>
+    </body>
+</html>
